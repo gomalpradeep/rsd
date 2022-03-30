@@ -12,7 +12,6 @@ const initialState = {
 
 export const createTicket = createAsyncThunk('tickets/create',
 async(ticketData, thunkAPI) =>{
-    console.log(ticketData)
 
     try{
         const token = thunkAPI.getState().auth.user.token

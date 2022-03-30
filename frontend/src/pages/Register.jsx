@@ -27,7 +27,6 @@ function Register() {
     }
 
     //Redirect when logged in
-    console.log(isSuccess,user)
     if(isSuccess || user){
       navigate('/')
     }
